@@ -1,0 +1,24 @@
+#container{
+ display: grid;
+ grid-template-columns: 1fr 2fr;
+ grid-template-rows: 10vh 60vh 10VH 10vh;
+}
+
+#container .cabecera{
+text-align: center;
+grid-column: 1/2;
+grid-row: 1/3;
+}
+
+
+#container text{
+text-align: center;
+size: 2vw;
+background-color: black;
+}
+
+#container .imagen img{
+ size: 20%;
+ grid-column: 1/2;
+ grid-row: 3/4;
+}
